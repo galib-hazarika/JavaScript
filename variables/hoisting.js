@@ -5,10 +5,11 @@
 //for variable the value at first phase is undefined and for functions it's function body
 //arrow function behave like variables not like function
 getName();
-console.log(weiredBehaviour); //give error as its act like variables
-weiredBehaviour2(); //give error as its act like variables
+// console.log(weiredBehaviour); //give error as its act like variables
+// weiredBehaviour2(); //give error as its act like variables
 console.log(x); //gives undefined
 console.log(getName);
+console.log(a);
 function getName() {
   console.log("Hello World!");
 }
@@ -19,4 +20,5 @@ let weiredBehaviour2 = function () {
   console.log("lion");
 };
 var x = 32;
+let a = 9;
 console.log(getName);
